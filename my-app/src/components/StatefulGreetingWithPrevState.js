@@ -41,28 +41,19 @@ class StatefulGreeting extends React.Component {
     }
 
     render() {
-        return ( <
-            div >
-            <
-            h1 > {
-                this.state.introduction
-            } {
-                this.props.greeting
-            } {
-                this.props.name
-            } < /h1> <
-            button onClick = {
-                () => this.handleClick()
-            } > {
-                this.state.buttonText
-            } < /button> <
-            button onClick = {
-                () => this.incrementFive()
-            } > Increment five < /button> <
-            p > Count: {
-                this.state.count
-            } < /p> <
-            /div>
+        return (
+            <div>
+                <h1>
+                    {this.state.introduction} {this.props.greeting} {this.props.name}
+                </h1>
+                <button onClick={() => this.handleClick()}>
+                    {this.state.buttonText}
+                </button>
+                <button onClick={() => this.incrementFive()}>
+                    Increment five
+                </button>
+                <p>Count: {this.state.count}</p>
+            </div>
         );
     }
 }
