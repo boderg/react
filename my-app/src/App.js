@@ -11,6 +11,7 @@ import './App.module.css';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 
 import Sidebar from './components/Sidebar';
+import NavBarSimple from './components/NavBarSimple';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       {/* <StatefulGreetingWithCallback greeting = "Good Morning" name = "Bob Smith" /> */}
       {/* <StatefulGreetingWithPrevState greeting = "Good Morning" name = "Bob Smith" /> */}
       <Sidebar />
+      <NavBarSimple />
     </div>
   );
 }
