@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 
-// import './App.css';
-import './App.module.css';
+// import "./App.css";
+import "./App.module.css";
 
 // import EventsClass from './components/EventsClass';
 // import EventsFunctional from './components/EventsFunctional';
@@ -20,9 +20,12 @@ import './App.module.css';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
-import Sidebar from './components/Sidebar';
+// import RenderingLists from "./components/RenderingLists";
+
+import Sidebar from "./components/Sidebar";
 // import NavBarSimple from './components/NavBarSimple';
-import NavBarForm from './components/NavBarForm';
+import NavBarForm from "./components/NavBarForm";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -39,10 +42,12 @@ function App() {
       {/* <ConditionalRenderingClass /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
+      {/* <RenderingLists /> */}
 
       <Sidebar />
       {/* <NavBarSimple /> */}
       <NavBarForm />
+      <Content />
     </div>
   );
 }
